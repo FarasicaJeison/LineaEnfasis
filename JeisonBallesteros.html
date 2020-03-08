@@ -8,7 +8,7 @@
     
     <link href="https://fonts.googleapis.com/css?family=Muli:300,400,700,900" rel="stylesheet">
     <link rel="stylesheet" href="fonts/icomoon/style.css">
-
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/jquery-ui.css">
     <link rel="stylesheet" href="css/owl.carousel.min.css">
@@ -45,7 +45,7 @@
       
       <div class="container-fluid">
         <div class="d-flex align-items-center">
-          <div class="site-logo"><a href="JeisonBallesteros.html">Wolf Systems </a></div>
+          <div class="site-logo"><a href="#">Wolf Systems </a></div>
           <div>
             <nav class="site-navigation position-relative text-right" role="navigation">
               <ul class="site-menu main-menu js-clone-nav mr-auto d-none d-lg-block">
@@ -118,9 +118,6 @@
 
     </div>
 
-    
-
-
     <div class="site-section section-2" id="process-section" >
       <div class="container">
         <div class="row">
@@ -188,48 +185,105 @@
           </div>
         </div>
         <div class="row">
-          <div class="col-lg-4" data-aos="fade-up" data-aos-delay="">
-            <div class="process p-3">
-              <span class="number">Man</span>
-              <div>
-                <span class="flaticon-maintenance display-4 text-primary mb-4 d-inline-block"></span>
-                <h3>Mantenimiento</h3>
-                <p>Prestamos toda la Asesoría en la instalación, configuración, actualización y
-                   Reparación de Computadores potátiles, e impresoras, tanto a nivel 
-                   de hardware como de Software</p>
-              </div>
-
-            </div>
+          <div class="col-lg-12">
+            <div class="row">
+          <div class="nav flex-column nav-pills col-lg-3" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+            <a class="nav-link" id="v-pills-messages-tab" data-toggle="pill" href="#v-pills-messages" role="tab" aria-controls="v-pills-messages" aria-selected="false">Consultoria</a>
+            <a class="nav-link" id="v-pills-profile-tab" data-toggle="pill" href="#v-pills-profile" role="tab" aria-controls="v-pills-profile" aria-selected="false">Desarrollo</a>
+            <a class="nav-link active" id="v-pills-home-tab" data-toggle="pill" href="#v-pills-home" role="tab" aria-controls="v-pills-home" aria-selected="true">Mantenimiento HW</a>
+            <a class="nav-link" id="v-pills-settings-tab" data-toggle="pill" href="#v-pills-settings" role="tab" aria-controls="v-pills-settings" aria-selected="false">Mantenimiento SF</a>
           </div>
-          <div class="col-lg-4" data-aos="fade-up" data-aos-delay="100">
-            <div class="process p-3">
-              <span class="number">Des</span>
-              <div>
-                <span class="flaticon-mobile-app display-4 text-primary mb-4 d-inline-block"></span>
-                <h3>Desarrollo</h3>
-                <p>Prestamos servicios de desarrollo de software bajo la 
-                  metodología ágil SCRUM. Desarrollo móvil y desarrollo.</p>
+          <div class="tab-content col-lg-9" id="v-pills-tabContent">
+            <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab">
+              <div class="col-lg-12" data-aos="fade-up" data-aos-delay="">
+                <div class="process p-6">
+                  <span class="number">Hardware</span>
+                  <div>
+                    <span class="flaticon-maintenance display-12 text-primary mb-12 d-inline-block"></span>
+                    <h3>Mantenimientos hardware</h3>
+                    <p>Mantenimiento preventivo se realiza en equipos en condiciones de funcionamiento, por oposición al mantenimiento correctivo que repara o pone en condiciones de funcionamiento aquellos que dejaron de funcionar o están dañados.</p>
+                  </div>
+      
+                </div>
               </div>
-
             </div>
-          </div>
-          <div class="col-lg-4" data-aos="fade-up" data-aos-delay="200">
-            <div class="process p-3">
-              <span class="number">Con</span>
-              <div>
-                <span class="flaticon-maintenance display-4 text-primary mb-4 d-inline-block"></span>
-                <h3>Consultoria</h3>
-                <p>Sabemos que llevar un control de todos los procesos de tu organización resulta agobiante, pero, de la mano de la tecnología adecuada, esta tarea puede ser más sencilla y ágil. </p>
-              </div>
+            <div class="tab-pane fade" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab">
+              <div class="col-lg-12" data-aos="fade-up" data-aos-delay="">
+                <div class="process p-6">
+                 
+                  <div>
+                    <span class="number">Desarrollo</span>
+                    <div>
+                      <span class="flaticon-mobile-app display-4 text-primary mb-4 d-inline-block"></span>
+                      <h3>Desarrollo</h3>
+                      <p>El desarrollo de software consiste en dar soluciones a un problema o solicitud real de un usuario, donde por medio de la implementación de un computador como herramienta, se procede a realizar un programa que resuelva dicho problema.
 
+                        Para esto es necesario identificar tres aspectos del problema:<br>
+                        1) los requerimientos del usuario: un requerimiento funcional consiste en identificar lo que el cliente espera de la solución.<br>
+                        2) el mundo o contexto en el que ocurre el problema.<br>
+                        3) las restricciones y condiciones planteadas por el usuario: son los requerimientos no funcionales que limitan o condicionan el desarrollo de la solución.</p>
+                    </div>
+                  </div>
+      
+                </div>
+              </div>
+            </div>
+            <div class="tab-pane fade" id="v-pills-messages" role="tabpanel" aria-labelledby="v-pills-messages-tab">
+              <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab">
+                <div class="col-lg-12" data-aos="fade-up" data-aos-delay="">
+                  <div class="process p-6">
+                      <span class="number">Consulto </span>
+                      <div>
+                        <span class="flaticon-maintenance display-4 text-primary mb-4 d-inline-block"></span>
+                        <h3>Consultoria</h3>
+                        <p>La consultoría tecnológica es un campo que se enfoca en aconsejar a otras empresas cómo usar las tecnologías de la información para conseguir sus objetivos empresariales. Adicionalmente, estiman, gestionan, implementan, instalan y administran los sistemas informáticos en régimen de subcontratación.</p>
+                      </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="tab-pane fade" id="v-pills-settings" role="tabpanel" aria-labelledby="v-pills-settings-tab">
+              <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab">
+                <div class="col-lg-12" data-aos="fade-up" data-aos-delay="">
+                  <div class="process p-6">
+                      <span class="number">Software</span>
+                      <div>
+                        <span class="flaticon-maintenance display-4 text-primary mb-4 d-inline-block"></span>
+                        <h3>Mantenimiento de software</h3>
+                        <p>El mantenimiento de software es la modificación de un producto de software después de la entrega, para corregir errores, mejorar el rendimiento, u otros atributos.​ El mantenimiento del software es una de las actividades más comunes en la ingeniería de software.</p>
+                      </div>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
+        </div>
+        </div>
       </div>
     </div>
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     
     
-  <div class="site-section section-1" id="contact-section">
+  <div class="site-section section-2" id="contact-section">
       
     
     <div class="container">
@@ -349,8 +403,9 @@
   <script src="js/jquery.fancybox.min.js"></script>
   <script src="js/jquery.sticky.js"></script>
 
+
   
   <script src="js/main.js"></script>
-    
+
   </body>
 </html>

@@ -123,7 +123,7 @@ h1, h2, h3, h4, h5,
     .site-section {
       padding: 5em 0; } }
   .site-section.site-section-sm {
-    padding: 4em 0; }
+    padding: 2em 0; }
 
 .site-section-heading {
   padding-bottom: 20px;
@@ -640,7 +640,7 @@ h1, h2, h3, h4, h5,
         max-width: 100%; } }
 
 .site-section {
-  padding: 10em 0; }
+  padding: 3em 0; }
   @media (max-width: 991.98px) {
     .site-section {
       padding: 4em 0; } }
